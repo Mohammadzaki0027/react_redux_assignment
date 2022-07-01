@@ -1,0 +1,11 @@
+#container{
+    border: 1px solid  black;
+    width: 30%;
+    margin: auto;
+    height:500px;
+
+}
+#totaldiv{
+    border: 1px solid teal;
+    height: 50px;
+}
