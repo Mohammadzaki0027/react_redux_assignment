@@ -17,8 +17,8 @@ const[num,Setnum]=React.useState(3)
   React.useEffect(() => {
     setTimeout(() => {
       getdata();
-      console.log(num)
-    }, 2000);
+ 
+    }, 1000);
   }, [query,num,page]);
   const handleclick = (e) => {
     console.log(e.target.value);
@@ -27,6 +27,11 @@ const[num,Setnum]=React.useState(3)
 const handlevaluefor=(value)=>{
   Setnum(num+value)
 }
+
+const handlevalueprev=(value)=>{
+  Setnum(num+value)
+}
+
   return (
     <div>
       <input
