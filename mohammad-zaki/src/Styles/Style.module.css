@@ -1,0 +1,64 @@
+.navbar {
+  width: 100%;
+  height: 40px;
+  max-height: 100px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: tomato;
+}
+.box {
+box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+height: 50%;
+border-radius: 5px;
+}
+.box :focus{
+background-color: teal;
+}
+#cartsymbol {
+  height: 10px;
+  width: 10px;
+}
+.imageid{
+  width: 100%;
+  height: 100px;
+
+}
+.images{
+  width: 100%;
+  height: 300px;
+}
+.products{
+width: 95%;
+margin: auto;
+margin-top: 5rem;
+
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: auto;
+gap: 20px;
+
+
+}
+.product{
+
+border: 1px solid black;
+border-radius: 30px ;
+
+}
+.btn{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+display: flex;
+justify-content: space-around;
+
+  
+  }
+  .btn1{
+    background-color:teal;
+    padding: 5px;
+    font-weight: bolder;
+    border-radius: 5px;
+  }
