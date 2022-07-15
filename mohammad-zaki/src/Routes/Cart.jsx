@@ -1,9 +1,15 @@
-import React from 'react'
-
+import React from "react";
+import { ApiContext } from "../Components/Api";
+import { useContext } from "react";
 const Cart = () => {
-  return (
-    <div>Cart</div>
-  )
-}
+  const { data } = useContext(ApiContext);
+ 
 
-export default Cart
+  return (
+    <div>
+      <div></div>
+    </div>
+  );
+};
+
+export default Cart;

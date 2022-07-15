@@ -1,14 +1,15 @@
 import React from 'react'
 import { useContext } from 'react'
 import { ApiContext } from '../Components/Api'
+import { Auth } from '../Context/AuthContext'
 import Styles from "../Styles/Style.module.css"
 const Products = () => {
   const {data}=useContext(ApiContext)
+const{handleclick}=useContext(ApiContext)
+
 const[updatedata,setUpdateData]=React.useState([])
 
-  const handleclick=(id)=>{
 
-  }
   return (
     <div>
 <div className={Styles.products} >
@@ -20,7 +21,7 @@ const[updatedata,setUpdateData]=React.useState([])
 
 <div className={Styles.btn}>
   
-  <div><button className={Styles.btn1} onClick={()=>{handleclick(items.id)}}>AddtoCart</button></div>
+  <div><button className={Styles.btn1} onClick={()=>{handleclick(items.id,items.name)}}>AddtoCart</button></div>
 
 
 </div>
