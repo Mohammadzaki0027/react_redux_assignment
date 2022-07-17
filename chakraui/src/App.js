@@ -1,16 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Form from './Components/Form';
-import GridItem from './Components/GridItem'
+import Allroutes from './Comp/Allroutes';
+
 
 
 function App() {
    return (
-    <div className="App">
- <Form></Form> 
-<hr/>
-<GridItem></GridItem>
-    </div>
+
+<Allroutes></Allroutes>
+
   );
 }
 

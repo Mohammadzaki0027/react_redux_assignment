@@ -1,21 +1,17 @@
 import { useReducer, useState } from "react";
 import { Userdata } from "./gitaction";
 import { githubReducer } from "./gitreducer";
-
-const intial= {
+const intial = {
   isLoading: false,
   isError: false,
   data: [],
-  token: ""
+  token: "",
 };
-
 function Github() {
   const [state, dispatch] = useReducer(githubReducer, intial);
   const [text, setText] = useState("");
-
   return (
     <div>
-   
       <div>
         <input
           value={text}
