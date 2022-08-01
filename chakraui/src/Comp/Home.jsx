@@ -1,9 +1,17 @@
 import React from 'react'
 import Navbar from './Navbar'
-
+import Search from './smallcomp/Search'
+import {Box} from "@chakra-ui/react"
 const Home = () => {
   return (
-   <Navbar></Navbar>
+<Box>
+<Navbar></Navbar>
+
+   <Search></Search>
+</Box>
+  
+   
+ 
   )
 }
 

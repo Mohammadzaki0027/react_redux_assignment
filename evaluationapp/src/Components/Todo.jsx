@@ -12,7 +12,7 @@ const Todo = () => {
     handletodo();
   }, []);
 const handltoggle=(id,newstatus)=>{
-  console.log("handle",newstatus)
+
   patchtodo({id,newstatus}).then(() => {
     handletodo();
   });

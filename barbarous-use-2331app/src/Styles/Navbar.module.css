@@ -1,0 +1,212 @@
+.link{
+    color:whitesmoke;
+}
+ .link:hover{
+border: 0.2px solid  teal;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+} 
+
+.selectatg{
+    color: white;
+}
+.selectatg option{
+    color:black;
+}
+.live{
+   color: #685A48;
+
+}
+.link img :hover{
+    border: 0.2px solid  teal;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.h1hover:hover{
+  color:   rgb(178, 18, 18);
+}
+.h1hover{
+    color: #685A48;
+}
+.footermainbox{
+    background-color:#172132;
+    width: 100%;
+    height: 200px;
+
+}
+.outer{
+    width: 100%;
+
+}
+.inner{
+    width: 100%;
+height: 450px;
+    background-color: #A62B2D;
+
+}
+.corouselouter{
+    width:60%;
+    height: 300px;
+    margin: auto;
+     background-color: black;
+
+}
+.cor{
+    
+    background-color: #A62B2D;
+    width: 100%;
+    height: 300px;
+}
+.corolinner{
+
+    width: 60%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.arrow{
+    margin-top: 130px;
+    color: white;
+ 
+}
+.coroseldiv{
+    background-color:white;
+    width: 60%;
+    height: 90%;
+    color: #A62B2D;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+text-align: center;
+border-radius: 15px;
+}
+.coroseldiv{
+    font-size: larger;
+    color: black;
+    padding: 20px;
+  
+}
+.Navbarbox{
+    background-color:#172132 ;
+     width:100%;
+ }
+@media only screen and (max-width: 600px) {
+    .coroseldiv{
+        font-size: small;
+        color: black;
+        padding: 10px;
+        display: inline-block;
+        width: 100%;
+    
+      
+    }
+.navflex{
+flex-direction: column;
+}
+    .corolinner{
+
+        width: 100%;
+        margin: auto;
+        display: inline-block;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .Navbarbox{
+        width: 100%;
+        
+    }
+    .newsbox{
+        width: 100%;
+        background-color: #685A48;
+        height: 400px;
+    }
+}
+
+.newsbox{
+    width: 80%;
+    background-color: white;
+   
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 10px;
+   
+}
+.heading{
+    font-weight: bold;
+   height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(50, 50, 93, 0.25);
+}
+.newsitem{
+width: 100%;
+display: flex;
+
+justify-content: space-around;
+height: 100%;
+}
+.image{
+width: 50%;
+
+
+}
+.image img{
+    width: 90%;
+}
+.halfdiv{
+    width: 50%;
+
+
+    
+}
+.title{
+    font-weight: bold;
+}
+.description{
+    margin-top: 10px;
+    font-weight: lighter;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.newspage{
+    width: 80%;
+    height: 100px;
+    background-color: #172132;
+    margin: auto;
+    margin-top: 20px;
+}
+.article{
+    width: 20%;
+    color: teal;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.matchdiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+ 
+
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.griddiv{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+text-align: center;
+
+}
+.griditem h1{
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+font-variant: normal;
+}

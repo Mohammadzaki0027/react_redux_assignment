@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Todoitem = ({data,handledelete,handltoggle}) => {
-console.log(data)
+
   return (
     <div style={{display:'flex',gap:"2rem",justifyContent:"space-around"}}>
 
