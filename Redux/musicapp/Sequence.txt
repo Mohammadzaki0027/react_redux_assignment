@@ -1,0 +1,12 @@
+First Task to install dependencies
+redux,react-redux,axios,redux-thunk,react-router-dom
+
+The Aim to make music record app with functionlity like filter sort with url also 
+
+
+
+Hooks are used in project
+usesearchparams,useloaction,useselector,usedispatch,useeffect,useststate,thunk,combinereducer
+
+first create store and wrap App with provider,BrowserRouter
+store is used to save state globally 

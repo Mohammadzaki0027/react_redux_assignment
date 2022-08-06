@@ -9,8 +9,8 @@ export default function App() {
   const [isloading, setIsloading] = useState(false);
   const [orders, setOrders] = useState(`ASC`);
   const [limit, setLimit] = useState(0);
-  const[country,setCountry]=useState([{}])
-  const[inputvalue,setInputvalue]=useState("")
+  const [country, setCountry] = useState([{}]);
+  const [inputvalue, setInputvalue] = useState("");
   const LIMIT = 10;
   const handlepage = (value) => {
     setIsloading(false);
@@ -38,7 +38,7 @@ export default function App() {
       setData(res.data);
       setIsloading(true);
       // setIsloading(true);
-setCountry(res.data)
+      setCountry(res.data);
       let total = Math.ceil(Number(res.headers["x-total-count"] / LIMIT));
       //console.log(typeof total);
       setLimit(total);
@@ -56,15 +56,25 @@ setCountry(res.data)
   return (
     <div className="App">
       {isloading ? "" : <div id="loading-container"></div>}
-      <select >
-     { data.map((items)=>(
-
-  <option>{items.country}</option>
-
-      ))}
+      <select>
+        {data.map((items) => (
+          <option>{items.country}</option>
+        ))}
       </select>
-      <input type="text" value={inputvalue} onChange={(e)=>{setInputvalue(e.target.value)}}/>
-      <button onClick={()=>{setCountry([...country,{country:inputvalue}])}} >Add Country</button>
+      <input
+        type="text"
+        value={inputvalue}
+        onChange={(e) => {
+          setInputvalue(e.target.value);
+        }}
+      />
+      <button
+        onClick={() => {
+          setCountry([...country, { country: inputvalue }]);
+        }}
+      >
+        Add Country
+      </button>
       <table>
         <thead>
           <tr>
