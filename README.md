@@ -1,5 +1,5 @@
 # react_redux_assignment
-##tpes
+# tpesapp
 Situation: Pin By using React-Redux
 Task:Project is To Make Pin/Otp where user can enter and paste otp 
 Action:I used React event handler to acheived this technique
