@@ -1,4 +1,4 @@
-# Redux
+# Redux Folder
 # tpesapp
 Otp Pin By using React-Redux.
 Project is To Make Pin/Otp where user can enter and paste otp 
