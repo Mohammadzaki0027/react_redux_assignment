@@ -1,0 +1,50 @@
+.loginbutton{
+
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.filterdiv{
+    width: 200px;
+
+}
+.mapdiv div img {
+    width: 300px;
+    height: 400px;
+}
+.logindiv{
+    text-align: center;
+}
+.mapdiv{
+    display: grid;
+
+    width: 100%;
+    margin: auto;
+  text-align: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 25px;
+}
+.container{
+   display: flex;
+  
+width: 100%;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+.image{
+    margin-left: 30px;
+}
+.filtercontainer{
+    text-align: center;
+    margin-top: 20px;
+    width: 150px;
+    height: 400px;
+border:  1px solid teal;
+margin-left: 20px;
+
+}

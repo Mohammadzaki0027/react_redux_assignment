@@ -9,7 +9,7 @@ function NoTransitionExample() {
   const [col, setCol] = React.useState(0);
 
   const [data] = useContext(Apicontext);
-console.log(data);
+console.log("data",data);
   const handleclickrigth = () => {
     if (col !== 0) {
       setCol((col) => col - 1);

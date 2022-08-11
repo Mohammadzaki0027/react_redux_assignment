@@ -4,7 +4,7 @@ export const githubFailureAction = { type: "FETCH_GITHUB_USER_FAILURE" };
 
 export const Userdata = (dispatch, query) => {
   dispatch(githubLoadingAction);
-  fetch("https://api.github.com/search/users?" + `q=${query}`)
+  fetch(`https://api.github.com/search/users?q=${query}`)
     .then((res) => res.json())
     .then((res) => {
       console.log(res)

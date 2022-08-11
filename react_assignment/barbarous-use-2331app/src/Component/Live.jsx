@@ -35,7 +35,7 @@ const[load,setLoad]=React.useState(true)
 setTimeout(() => {
   console.log(scoredata[0].status)
   setLoad(false)
-}, 2500);
+}, 1500);
 
   return (
     <div style={{ width: "80%", margin: "auto" }}>
